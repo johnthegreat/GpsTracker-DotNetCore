@@ -1,0 +1,7 @@
+﻿bin/
+obj/
+.vs/
+.idea/
+GpsTracker/Properties/launchSettings.json
+*.user
+*.pubxml

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>GpsTracker</RootNamespace>
+    <StartupObject>GpsTracker.Program</StartupObject>
+    <Platforms>AnyCPU</Platforms>
+    <AssemblyName>GpsTracker</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <Authors>John Nahlen</Authors>
+    <Company />
+    <Copyright>John Nahlen</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SharpGIS.NmeaParser" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
